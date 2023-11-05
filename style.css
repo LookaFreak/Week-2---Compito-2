@@ -1,8 +1,12 @@
 *{
     margin: 0;
     padding: 0;
+    display: inline-table;
 }
 
+.granddiv{
+    padding-left: 10px;
+}
 
 .logo img{
     width: 230px;
@@ -15,27 +19,32 @@
     
 }
 
-svg{
-    padding: 0px 10px;
-    margin-top: -5px;
+.user svg{
+    padding: 10px 10px;
+   
 }
 .user{
-   
+   display: flex;
+   flex-direction: row;
+   align-content: center;
+   flex-wrap: wrap;
     padding-right: 20px;
+    padding-top: 30px;
+    
 }
 
 
 .luffy{
     display: inline;
     height: 70px;
-    padding-top: 100px;
+
 }
 
 .user img{
     border-radius: 50px 50px 50px 50px;
     width: 30px;
     height: 30px;
-    margin-top: 5px;
+   padding: 0px 5px;
 }
 
 #button{
@@ -52,6 +61,7 @@ svg{
     justify-content: space-evenly;
     padding-right: 1050px;
     padding-top: 65px;
+    
 }
 
 h5:first-child{
@@ -61,44 +71,167 @@ h5:first-child{
 
 .content h5:last-child{
     border-bottom: solid black 1px;
+    
 }
 
 #oda{
     width: 20px;
     height: 20px;
     border-radius: 50px 50px 50px 50px;
-    padding-top: 20px;
-    padding-left: 30px;
 }
 
-.pics{
-    padding-left: 30px;
-    width: 500px;
-}
+
 
 #text{
-    width: 550px;
+    max-width: fit-content;
     white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+
 }
 
 
 #anni{
     width: 150px;
     height: 150px;
-    padding-left: 550px;
-    padding-bottom: 100px;
+    position: relative;
+    padding-left: 256px;
     
 }
 
-.realcont{
-  display: flex;
-  flex-direction: row;
-    
-    
+.realcont1{
+   padding-top: 10px;
+   z-index: 2;
+   position: relative;
+   
 }
+
+.realcont2{
+    padding-top: 10px;
+    z-index: 2;
+    position: relative;
+    
+ }
+    
 
 .vediamo{
-    width: 500px;
+    max-width: 425px;
+    display: inline-block;
+    padding-top: 50px;
+    padding-left: 10px;
+    z-index: 40;
+   position: relative;
+    
+    
+}
+
+.vediamo span{
+    padding-left: 3px;
+
+}
+
+.vediamo h5{
+    color: gray;
+}
+#list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+list-style: none;
+}
+
+.realcont li{
+    padding-left: 20px;
+    color: gray;
+}
+
+
+#icon{
+    display: inline-flex;
+    float: inline-end;
+}
+
+#med{
+    height: 50px;
+    width: 50px;
+    
+}
+
+#twitter{
+    height: 50px;
+    width: 50px;
+}
+
+.rightbar{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    float: right;
+    max-width: 200px;
+    padding-right: 250px;
+    padding-top: -45px;
+    z-index: 20;
+    position: relative;
+    
+ }
+.rgtimg{
+  
+}
+
+#botlogo{
+    width: 20px;
+    height: 20px;
+}
+ 
+p{
+    text-decoration: underline;
+    color: gray;
+    margin-top: 10px;
+}
+
+.rightbar h4{
+ color: gray;
+}
+
+.rightbar:first-child span{
+    font-size: 50px;
+    color: gray;
+}
+
+
+#btnrgt{
+    border-radius: 50px 50px 50px 50px;
+    width: 140px;
+     }
+     
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: end;
+    width: 250px;
+}
+
+.people img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.minicont{
+    font-size: x-small;
+    
+}
+
+#lista{
+    display: contents;
+list-style: none;
+}
+
+
+
+#prova{
+    height: 150px;
+    width: 150px;
 }
