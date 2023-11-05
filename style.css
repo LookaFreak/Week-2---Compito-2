@@ -83,7 +83,6 @@ h5:first-child{
 
 
 #text{
-    max-width: fit-content;
     white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -174,9 +173,7 @@ list-style: none;
     position: relative;
     
  }
-.rgtimg{
-  
-}
+
 
 #botlogo{
     width: 20px;
