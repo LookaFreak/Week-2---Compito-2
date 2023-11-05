@@ -4,125 +4,107 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
-    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
     <title>Document</title>
 </head>
 <body>
-        <div class="navbar">
-            <div class="logo">
-            <img src="medlogo.png"/>
-            </div>
-            <div class="user">
-                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
-                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 48C0 21.5 21.5 0 48 0l0 48V441.4l130.1-92.9c8.3-6 19.6-6 27.9 0L336 441.4V48H48V0H336c26.5 0 48 21.5 48 48V488c0 9-5 17.2-13 21.3s-17.6 3.4-24.9-1.8L192 397.5 37.9 507.5c-7.3 5.2-16.9 5.9-24.9 1.8S0 497 0 488V48z"/></svg>
-                <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M224 0c-17.7 0-32 14.3-32 32V49.9C119.5 61.4 64 124.2 64 200v33.4c0 45.4-15.5 89.5-43.8 124.9L5.3 377c-5.8 7.2-6.9 17.1-2.9 25.4S14.8 416 24 416H424c9.2 0 17.6-5.3 21.6-13.6s2.9-18.2-2.9-25.4l-14.9-18.6C399.5 322.9 384 278.8 384 233.4V200c0-75.8-55.5-138.6-128-150.1V32c0-17.7-14.3-32-32-32zm0 96h8c57.4 0 104 46.6 104 104v33.4c0 47.9 13.9 94.6 39.7 134.6H72.3C98.1 328 112 281.3 112 233.4V200c0-57.4 46.6-104 104-104h8zm64 352H224 160c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7s18.7-28.3 18.7-45.3z"/></svg>
-           <button id="button">
-                <span>Resume membership</span> </button>       
-                <div class="luffy">
-                <img src="luffy.jpg"/>
-                </div>
+   <main>
+    <div class="navbar">
+       
+        <img id="logom" src="medlogo.png" alt="medlogo"/>
+        <div class="logonav">
+    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 384 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 48C0 21.5 21.5 0 48 0l0 48V441.4l130.1-92.9c8.3-6 19.6-6 27.9 0L336 441.4V48H48V0H336c26.5 0 48 21.5 48 48V488c0 9-5 17.2-13 21.3s-17.6 3.4-24.9-1.8L192 397.5 37.9 507.5c-7.3 5.2-16.9 5.9-24.9 1.8S0 497 0 488V48z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M224 0c-17.7 0-32 14.3-32 32V49.9C119.5 61.4 64 124.2 64 200v33.4c0 45.4-15.5 89.5-43.8 124.9L5.3 377c-5.8 7.2-6.9 17.1-2.9 25.4S14.8 416 24 416H424c9.2 0 17.6-5.3 21.6-13.6s2.9-18.2-2.9-25.4l-14.9-18.6C399.5 322.9 384 278.8 384 233.4V200c0-75.8-55.5-138.6-128-150.1V32c0-17.7-14.3-32-32-32zm0 96h8c57.4 0 104 46.6 104 104v33.4c0 47.9 13.9 94.6 39.7 134.6H72.3C98.1 328 112 281.3 112 233.4V200c0-57.4 46.6-104 104-104h8zm64 352H224 160c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7s18.7-28.3 18.7-45.3z"/></svg>
+  <button id="button">
+    <span>Resume membership</span> 
+</button>       
+   <img id="luffy" src="luffy.jpg" alt="luffy"/>
+    </div>
+    <div class="flex">
+        <div class="figlio1">
+            <div class="flex2">
+                <span id="for">FOLLOWING</span>
+    <span id="follow">RECOMMED FOR YOU</span><br>
+        <img id="oda" src="oda.jpg" alt="oda"/>
+     <span><b>Eiichiro Oda</b></span>
+    <span>in</span>
+    <span><b>Twitter</b></span>
+    <img id="anni" src="25anni.jpg" alt="anni"/>
+    <h2>ONE PIECE is 25 years old, Eiichiro Oda leaves a message: <br> best wishes for the anime</h2>             
+    <p id="text">It seemed like yesterday when Luffy and his crew debuted for the first time on the small screen</p>      
+    <div class="container">
+    <li id="iconas">Dec 3</li>
+    <li id="iconas">4 min read</li>
+    <li id="iconas">React</li>
+    <?xml version="1.0" ?><svg id="icon" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M17,19.381966 L17,17 L19,17 L19,22.618034 L12,19.118034 L5,22.618034 L5,4 C5,2.8954305 5.8954305,2 7,2 L17,2 C18.1045695,2 19,2.8954305 19,4 L19,5 L17,5 L17,4 L7,4 L7,19.381966 L12,16.881966 L17,19.381966 Z M18,10 L18,8 L20,8 L20,10 L22,10 L22,12 L20,12 L20,14 L18,14 L18,12 L16,12 L16,10 L18,10 Z" fill-rule="evenodd"/></svg>
+     <svg id="iconas" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M8 256a56 56 0 1 1 112 0A56 56 0 1 1 8 256zm160 0a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm216-56a56 56 0 1 1 0 112 56 56 0 1 1 0-112z"/></svg>   
+     
+</div>
             </div>
         </div>
+        <div class="figlio2">
+            <img id="med" src="medlogo2.png" alt="medlogo2"/>
+            <span>+</span>
+        <img id="twitter" src="twitter.png" alt="twitter"/>
+            
+            <h4>Discover Medium writes you already<br> follow on Twitter</h4>
+        <button id="btnrgt">
+            <img id="botlogo" src="twitter.png" alt="twitter"/>
+            <span>Connect to Twitter</span>
+        </button>
+        <p>Maybe Later</p>
+        <h3>Reccommended topics</h3>
+        <span id="info">Technology</span>
+        <span id="info">Money</span>
+        <span id="info">Bussiness</span>
+        <span id="info">Productivity</span>
+        <span id="info">Psycology</span>
+        <span id="info">Mindfluness</span>
+        <span id="info">Art</span>
+            <p>Who to Follow</p>
+        <img id="people" src="chopper.png" alt="chopper"/>
+        <SPAN>Tony Chopper</SPAN>
+        <button><span>Follow</span></button>
+        <h6>Doctor</h6>
+        <img id="people" src="bigmom.jpg" alt="bigmom"/>
+        <span>Big Mom</span>
+        <button><span>Follow</span></button>
+        <h6>Yonko</h6>
+        <img id="people" src="kizaru.jpg" alt="kizaru"/>
+        <span>Kizaru</span>
+        <button><span>Follow</span></button>
+        <h6>Marine</h6>
 
-
-<div class="content">
-    <h5>FOLLOWING</h5>
-    <h5>RECOMMED FOR YOU</h5>
-    </div>
-    <div class="realcont1">
-        <div class="vediamo">
-            <img id="oda" src="oda.jpg"/>
+            <h3>Recently Saved</h3>
+            <img id="oda" src="morgans.jpeg" alt="morgans"/>
         <span><b>Eiichiro Oda</b></span>
         <span>in</span>
         <span><b>Twitter</b></span>
-        <img id="anni" src="25anni.jpg"/>
-        <span>ONE PIECE is 25 years old, Eiichiro Oda leaves a message:  best wishes for the anime</span>             
-        <span id="text">It seemed like yesterday when Luffy and his crew debuted for the first time on the small screen, yet 25 years have passed since the ONE PIECE anime was born. While the manga is approaching its epilogue, the anime adaptation is still a little far from its end.</span>      
-        <ul id="list">
-            <li>Dec 3</li>
-            <li>4 min read</li>
-            <li>React</li>
-            <li>Popular on Medium</li>
-          </ul>
-       <?xml version="1.0" ?><svg id="icon" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M17,19.381966 L17,17 L19,17 L19,22.618034 L12,19.118034 L5,22.618034 L5,4 C5,2.8954305 5.8954305,2 7,2 L17,2 C18.1045695,2 19,2.8954305 19,4 L19,5 L17,5 L17,4 L7,4 L7,19.381966 L12,16.881966 L17,19.381966 Z M18,10 L18,8 L20,8 L20,10 L22,10 L22,12 L20,12 L20,14 L18,14 L18,12 L16,12 L16,10 L18,10 Z" fill-rule="evenodd"/></svg>
-          <svg id="icon" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M8 256a56 56 0 1 1 112 0A56 56 0 1 1 8 256zm160 0a56 56 0 1 1 112 0 56 56 0 1 1 -112 0zm216-56a56 56 0 1 1 0 112 56 56 0 1 1 0-112z"/></svg>   
+        <h3>ONE PIECE is 25 years old, Eiichiro Oda leaves</h3>             
+        <h5 id="text">It seemed like yesterday when Luffy and his crew debuted for the first time</h5>
+            <span>Dec 3</span>
+            <span>4 min read</span>
+            <span>React</span>
+            <p></p>
+            <img id="oda" src="ryo.jpg" alt="ryo"/>
+        <span><b>Eiichiro Oda</b></span>
+        <h3>Hi</h3>                 
+        <span>Dec 3</span>
+        <span>4 min read</span>
+        <span>React</span>
+          
+        <p>See all (3)</p>
+        <span id="lista">Helps</span>
+        <span id="lista">Status</span>
+        <span id="lista">writes</span>
+        <span id="lista">Careers</span>
+        <span id="lista">Blog</span>
+        <span id="lista">Privacy</span>
+        <span id="lista">Term</span>
+        <span id="lista">About</span>
         </div>
-    </div>>
-    
-    <div class="rightbar">
-    <div class="rgtimg">
-    <img id="med" src="medlogo2.png"/>
-    <span>+</span>
-<img id="twitter" src="twitter.png"/>
+        
     </div>
-    <h4>Discover Medium writes you already<br> follow on Twitter</h4>
-<button id="btnrgt">
-    <img id="botlogo" src="twitter.png"/>
-    <span>Connect to Twitter</span>
-</button>
-<p>Maybe Later</p>
-<h3>Reccommended topics</h3>
-<div class="info">
-<h4 id="info">Technology</h4>
-<h4 id="info">Money</h4>
-<h4 id="info">Bussiness</h4>
-<h4 id="info">Productivity</h4>
-<h4 id="info">Psycology</h4>
-<h4 id="info">Mindfluness</h4>
-<h4 id="info">Art</h4>
-</div>
-<div class="people">
-    <p>Who to Follow</p>
-<img src="chopper.png"/>
-<SPAN>Tony Chopper</SPAN>
-<button><span>Follow</span></button>
-<h6>Doctor</h6>
-<img src="bigmom.jpg"/>
-<span>Big Mom</span>
-<button><span>Follow</span></button>
-<h6>Yonko</h6>
-<img src="kizaru.jpg"/>
-<span>Kizaru</span>
-<button><span>Follow</span></button>
-<h6>Marine</h6>
-</div>
-<div class="saved">
-    <h3>Recently Saved</h3>
-</div>
-<div class="minicont">
-    <img id="oda" src="morgans.jpeg"/>
-<span><b>Eiichiro Oda</b></span>
-<span>in</span>
-<span><b>Twitter</b></span>
-<h3>ONE PIECE is 25 years old, Eiichiro Oda leaves</h3>             
-<h5 id="text">It seemed like yesterday when Luffy and his crew debuted for the first time</h5>      
-<ul id="list">
-    <li>Dec 3</li>
-    <li>4 min read</li>
-    <li>React</li>
-  </ul>
-</div>
-<div class="minicont">
-    <img id="oda" src="ryo.jpg"/>
-<span><b>Eiichiro Oda</b></span>
-<h3>Hi</h3>                 
-<ul id="list">
-    <li>Dec 3</li>
-    <li>4 min read</li>
-    <li>React</li>
-  </ul>
-</div>
-<p>See all (3)</p>
-<li id="lista">Helps</li>
-<li id="lista">Status</li>
-<li id="lista">writes</li>
-<li id="lista">Careers</li>
-<li id="lista">Blog</li>
-<li id="lista">Privacy</li>
-<li id="lista">Term</li>
-<li id="lista">About</li>
-
-
-</div>
+   </main>
 </body>
 </html>

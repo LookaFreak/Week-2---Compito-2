@@ -1,234 +1,126 @@
 *{
     margin: 0;
     padding: 0;
-    display: inline-table;
-}
-
-.granddiv{
-    padding-left: 10px;
-}
-
-.logo img{
-    width: 230px;
-    height: 70px;
-}
-
-.navbar{
-    display: flex;
-    justify-content: space-between;
     
-}
-
-.user svg{
-    padding: 10px 10px;
-   
-}
-.user{
-   display: flex;
-   flex-direction: row;
-   align-content: center;
-   flex-wrap: wrap;
-    padding-right: 20px;
-    padding-top: 30px;
-    
-}
-
-
-.luffy{
-    display: inline;
-    height: 70px;
-
-}
-
-.user img{
-    border-radius: 50px 50px 50px 50px;
-    width: 30px;
-    height: 30px;
-   padding: 0px 5px;
-}
-
-#button{
-    border: solid gray 1px;
-    border-radius: 20px 20px;
-    width: 150px;
-    height: 35px;
-}
-
-
-.content{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding-right: 1050px;
-    padding-top: 65px;
-    
-}
-
-h5:first-child{
-    color: gray;
-    
-}
-
-.content h5:last-child{
-    border-bottom: solid black 1px;
-    
-}
-
-#oda{
-    width: 20px;
-    height: 20px;
-    border-radius: 50px 50px 50px 50px;
-}
-
-
-
-#text{
-    white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-
-}
-
-
-#anni{
-    width: 150px;
-    height: 150px;
-    position: relative;
-    padding-left: 256px;
-    
-}
-
-.realcont1{
-   padding-top: 10px;
-   z-index: 2;
-   position: relative;
-   
-}
-
-.realcont2{
-    padding-top: 10px;
-    z-index: 2;
-    position: relative;
-    
- }
-    
-
-.vediamo{
-    max-width: 425px;
-    display: inline-block;
-    padding-top: 50px;
-    padding-left: 10px;
-    z-index: 40;
-   position: relative;
+    }
     
     
-}
-
-.vediamo span{
-    padding-left: 3px;
-
-}
-
-.vediamo h5{
-    color: gray;
-}
-#list{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-list-style: none;
-}
-
-.realcont li{
-    padding-left: 20px;
-    color: gray;
-}
-
-
-#icon{
-    display: inline-flex;
-    float: inline-end;
-}
-
-#med{
-    height: 50px;
-    width: 50px;
+    main{
+      width: 1360px;
+    }
     
-}
-
-#twitter{
-    height: 50px;
-    width: 50px;
-}
-
-.rightbar{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    float: right;
-    max-width: 200px;
-    padding-right: 250px;
-    padding-top: -45px;
-    z-index: 20;
-    position: relative;
+    .navbar{
+      height: 100px;
+    }
     
- }
-
-
-#botlogo{
-    width: 20px;
-    height: 20px;
-}
- 
-p{
-    text-decoration: underline;
-    color: gray;
-    margin-top: 10px;
-}
-
-.rightbar h4{
- color: gray;
-}
-
-.rightbar:first-child span{
-    font-size: 50px;
-    color: gray;
-}
-
-
-#btnrgt{
-    border-radius: 50px 50px 50px 50px;
-    width: 140px;
-     }
-     
-
-.info{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: end;
-    width: 250px;
-}
-
-.people img{
-    width: 50px;
-    height: 50px;
-    border-radius: 50px 50px 50px 50px;
-}
-
-.minicont{
-    font-size: x-small;
+    #follow{
+      text-decoration: underline;
+      color: black;
+      font-size: 20px;
+      padding-left: 10px;
+    }
     
-}
-
-#lista{
-    display: contents;
-list-style: none;
-}
-
-
-
-#prova{
-    height: 150px;
-    width: 150px;
-}
+    oda{
+      padding-left: 10px;
+    }
+    
+    #for{
+      color: black;
+      font-size: 20px;
+      padding-left: 10px;
+    }
+    
+    .flex{
+      display: flex;
+      height: 100vh;
+    }
+    
+    .figlio1{
+      width: 70%;
+      height: 50vh;
+      flex: 2 3;
+    }
+    
+    .figlio2{
+      width: 30%;
+      height: 70vh;
+      flex: 1 3;
+    
+    }
+    
+    #logom{
+      height: 50px;
+    }
+    
+    .logonav{
+     display: inline;
+     padding-left: 900px;
+    }
+    #luffy{
+      height: 50px;
+      border-radius: 50px 50px 50px 50px;
+      
+    }
+    
+    #button{
+      border-radius: 50px 50px 50px 50px;
+    }
+    
+    #med{
+      height: 20px;
+      width: 20px;
+    }
+    
+    #twitter{
+      height: 20px;
+      width: 20px;
+    }
+    
+    #botlogo{
+      height: 20px;
+      width: 20px;
+    }
+    
+    
+    #people{
+      height: 30px;
+      width: 30px;
+      border-radius: 50px 50px 50px 50px;
+    }
+    
+    #oda{
+      height: 30px;
+      width: 30px;
+      border-radius: 50px 50px 50px 50px;
+    }
+    
+    #anni{
+      height: 150px;
+      width: 150px;
+    }
+    
+    .flex2 p{
+    
+    }
+    
+    .container{
+      width: 16px;
+    }
+    
+    .container2{
+      width: 16px;
+    }
+    
+    
+    
+    #anni{
+      position: absolute;
+      padding-left: 550px;
+    }
+    
+    
+    
+    .iconas{
+      display: flex;
+      justify-content: space-between;
+    }
